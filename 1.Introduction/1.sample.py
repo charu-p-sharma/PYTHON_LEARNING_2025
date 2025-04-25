@@ -2,3 +2,5 @@
 
 print('hello')
 print("world")
+
+# Note: Python is case sensitive language
