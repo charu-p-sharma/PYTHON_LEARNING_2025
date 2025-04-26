@@ -49,4 +49,19 @@ my_list7=[1,2,3]
 repeat_list=my_list7*2
 print(repeat_list)
 
-# REPEATATION IN LIST
+# MEMBERSHIP OPERATOR IN LIST 
+# in operator
+my_list8=[1,2,3,4,5,6,7,8,9]
+num1=int(input("Enter the number you want to check in list:"))
+if num1 in my_list8:
+    print("Number found")
+else:
+    print("Number not found")
+
+# not in operator
+my_list9=[1,2,3,4,5,6,7,8,9]
+num2=int(input("Enter the number you want to check in list:"))
+if num2 not in my_list9:
+    print("Number not found")
+else:
+    print("Number found")
